@@ -1,17 +1,28 @@
-# vsit_complaint_box
+# VSIT Complaint Box - Student Grievance Redressal System 🏛️📮
 
-A new Flutter project.
+A Flutter mobile and web application providing students and staff a platform to submit grievances, attach proof, and track resolution progress with admin dashboard triage.
 
-## Getting Started
+![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?logo=flutter)
+![Dart](https://img.shields.io/badge/Dart-3.x-0175C2?logo=dart)
+![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20Web%20%7C%20Windows-green)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 📌 Features
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- **Anonymous & Verified Submissions**: Submit grievances across academics, infrastructure, lab equipment, or canteen.
+- **Complaint Tracking**: Track status with real-time badges (Submitted, In-Review, Resolved).
+- **Admin Dashboard**: Secure administrative portal to manage tickets, update resolution notes, and filter by priority.
+- **Glassmorphic UI**: Clean modern design using Flutter glass cards and smooth status animations.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/Rishi0073/vsit-complaint-box.git
+cd vsit-complaint-box
+flutter pub get
+flutter run
+```
