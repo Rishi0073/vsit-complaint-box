@@ -173,7 +173,7 @@ class FadeThroughRoute<T> extends PageRouteBuilder<T> {
       : super(
           transitionDuration: const Duration(milliseconds: 360),
           reverseTransitionDuration: const Duration(milliseconds: 240),
-          pageBuilder: (_, _, _) => page,
+          pageBuilder: (context, anim1, anim2) => page,
           transitionsBuilder: (context, animation, _, child) {
             if (MediaQuery.maybeOf(context)?.disableAnimations ?? false) {
               return child;

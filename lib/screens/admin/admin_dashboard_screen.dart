@@ -146,7 +146,7 @@ class _AdminDashboardScreenState extends State<AdminDashboardScreen> {
                                           complaint: filtered[index],
                                         ),
                                       ),
-                                  separatorBuilder: (_, _) =>
+                                  separatorBuilder: (context, index) =>
                                       const SizedBox(height: 12),
                                   itemCount: filtered.length,
                                 ),
